@@ -1,0 +1,25 @@
+# 302 redirects
+
+# news pages
+~^/about/?$ /news/about;
+~^/academic-honesty/?$ /news/academic-honesty-policy;
+~^/code-of-conduct/?$ /news/code-of-conduct;
+~^/copyright/?$ /news/copyright-policy;
+~^/copyright-policy/?$ /news/copyright-policy;
+~^/privacy/?$ /news/privacy-policy;
+~^/privacy-policy/?$ /news/privacy-policy;
+~^/shop/?$ /news/shop;
+~^/software-resources-for-nonprofits/?$ /news/software-resources-for-nonprofits;
+~^/sponsors/?$ /news/sponsors;
+~^/support/?$ /news/support;
+~^/terms/?$ /news/terms-of-service;
+~^/terms-of-service/?$ /news/terms-of-service;
+~^/top-contributors/?$ /news/freecodecamp-top-contributors;
+
+# misc
+~^/donation/settings/?$ /donate;
+~^/welcome/?$ /;
+~^/map/?$ /learn;
+~^/map-aside/?$ /learn;
+~^/videos/? /learn;
+~^/wiki/? /learn;
